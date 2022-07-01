@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--CSS linked in here-->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- endbuild -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Rock+Salt|Yellowtail|Open+Sans|Rancho&effect=shadow-multiple|neon" />
+    <title>Ashley Yarbrough | Portfolio</title>
+</head>
+
+<body>
+    <header class="jumbotron jumbotron-fluid text-align-right">
+        <nav class="navbar navbar-expand-sm sticky-top font-effect-neon">
+            <div class="container">
+                <!-- TODO: Insert logo or icon here -->
+                <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#portNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button> -->
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="navbar-nav ml-auto align-right">
+                        <!-- How do I install/use the Font Awesome icons??? -->
+
+                        <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-home fa-lg"></i> About
+                                Me.</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#projects"><i class="fa fa-info fa-lg"></i>
+                                Projects.</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact"><i
+                                    class="fa fa-address-card fa-lg"></i> Contact Me.</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#resume"><i class="fa fa-list fa-lg"></i>
+                                Resume.</a></li>
+                        <li class="nav-item"><a class="nav-link" href="game.html"><i
+                                    class="fa fa-address-card fa-lg"></i> Game.</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <div class="container">
+        <div class="row row-content">
+            <div class="col-sm-4  col-md-5">
+                <img id="Ashley" src="img/linkedinphoto.jpeg" height="350px" alt="Ashley Yarbrough">
+            </div>
+            <div class="col order-sm-last">
+                <h5>Hello there! 👋 I'm</h5><br>
+                <h1 class="font-effect-neon">Ashley Yarbrough</h1>
+                <br>
+                <p>👩🏼‍💻 I'm a full stack web developer based in Texas.</p>
+                <p>👀 I'm interested in improving diversity in technology and preventing bias in data.</p>
+                <p>📖 I've completed a Web Development Bootcamp involving HTML, CSS, and JavaScript.</p>
+                <p>🌱 Subsequently completed a Back End Bootcamp involving Python, SQL, and DevOps.</p>
+                <p>💻 I'm currently working on the Front End Bootcamp Program at Nucamp.</p>
+                <p>👯 I'm looking to collaborate on all kinds of Front End and Back End projects.</p>
+            </div>
+        </div>
+
+        <div class="row row-content">
+            <div class="col-sm-4 col-md-3">
+                <h2>About Me.</h2>
+            </div>
+            <div class="col">
+                <h3>Header here?</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae nostrum dolorum, quia tempora esse
+                    nemo ut veniam quaerat distinctio officia laborum, sed, dicta quae saepe perferendis earum explicabo
+                    ducimus sit?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et aliquam dolorum possimus nam consequuntur
+                    unde impedit officia perferendis laboriosam quaerat? Veniam asperiores vero reiciendis. Voluptas
+                    blanditiis optio a earum rem.</p>
+            </div>
+        </div>
+
+        <div class="row row-content">
+            <div class="col-sm-6 order-sm-last col-md-3">
+                <h2 class="text-align-center">Projects.</h2>
+                <div class="card">
+                    <img src="https://picsum.photos/200/300?random=1">
+                </div>
+            </div>
+            <div class="col-sm-6 order-sm-last col-md-3col-sm-6 order-sm-last col-md-3">
+                <div class="card">
+                    <img src="https://picsum.photos/200/300?random=2">
+                </div>
+            </div>
+            <div class="col col-sm-4">
+                <h3>What I've been working on...</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, fugit porro! Minus ullam,
+                    recusandae dicta fuga autem ducimus quibusdam pariatur, velit vel obcaecati similique, placeat nisi
+                    temporibus ab dolores consequuntur!</p>
+                <ul>
+                    <li>Link to Github</li>
+                    <li>Link to Codepen</li>
+                    <li>Link to Replit</li>
+                </ul>
+                    <p></p>
+            </div>
+        </div>
+
+        <div class="row row-content">
+            <div class="col-sm-4 col-md-3">
+                <h2>Contact Me.</h2>
+            </div>
+            <div class="col">
+                <h3>Get in touch</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad sit quod consequuntur consequatur. Aspernatur nulla, harum sapiente repellendus nemo odit tempora deserunt natus, illum, maiores at assumenda excepturi nobis facilis.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <!--CONFETTI CODE-->
+    <div id="confetti-wrapper">
+    </div>
+    <div id="skOpeningDayCont" class="openDayAni">
+        <p>Welcome!</p>
+        <img src="https://as1.ftcdn.net/v2/jpg/01/71/69/56/1000_F_171695687_UMLWIPG2EJvZcO9VJvtSVXpgNXtIXARs.jpg"
+            alt="Pinata Clipart" id="confSmi">
+
+    </div>
+    <script>
+        for(i=0; i<100; i++) {
+        // Random rotation
+        var randomRotation = Math.floor(Math.random() * 360);
+          // Random Scale
+        var randomScale = Math.random() * 1;
+        // Random width & height between 0 and viewport
+        var randomWidth = Math.floor(Math.random() * Math.max(document.documentElement.clientWidth, window.innerWidth || 0));
+        var randomHeight =  Math.floor(Math.random() * Math.max(document.documentElement.clientHeight, window.innerHeight || 500));
+        
+        
+        // Random animation-delay
+        var randomAnimationDelay = Math.floor(Math.random() * 2000);
+        console.log(randomAnimationDelay);
+      
+        // Random colors
+        var colors = ['#194A9E', '#E52128', '#1FA1FF', '#6699cc', '#FF7043', '#6d2480', '#FFC323']
+        var randomColor = colors[Math.floor(Math.random() * colors.length)];
+        
+        // Create confetti piece
+        var confetti = document.createElement('div');
+        confetti.className = 'confetti';
+        confetti.style.top=randomHeight + 'px';
+        confetti.style.right=randomWidth + 'px';
+        confetti.style.backgroundColor=randomColor;
+        // confetti.style.transform='scale(' + randomScale + ')';
+        confetti.style.obacity=randomScale;
+        confetti.style.transform='skew(15deg) rotate(' + randomRotation + 'deg)';
+        confetti.style.animationDelay=randomAnimationDelay + 'ms';
+        document.getElementById("confetti-wrapper").appendChild(confetti);
+      }
+      
+      const skOpeningDayCont = document.getElementById('skOpeningDayCont');
+      const skBody = document.querySelector('body');
+      
+      skBody.style.overflow = "hidden";
+      
+      setTimeout(() => {
+       skOpeningDayCont.className = "aniLeave";
+      }, 5000)
+      
+      setTimeout(() => {
+       skOpeningDayCont.style.display="none";
+      }, 5900)
+        
+    </script>
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-sm-2 offset-1">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Sites</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-sm-5">
+                    <h5>Social</h5>
+                    <a href="http://instagram.com/">Instagram</a>
+                    <a href="http://facebook.com/">Facebook</a>
+                    <a href="http://twitter.com/">Twitter</a>
+                    <a href="http://youtube.com/">YouTube</a>
+                </div>
+                <div class="col-sm-4">
+                    Tel: 1-206-555-1234<br />
+                    Email: campsites@nucamp.co
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
